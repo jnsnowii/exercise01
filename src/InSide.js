@@ -18,7 +18,7 @@ export class InSide extends Component
         var list = [];
         for(var i = 0; i < this.state.count; i++)
         {
-            list.push(<div className="column notification is-primary has-text-centered App-body">Number1. {(i+1)}</div>);
+            list.push(<div className="column notification is-primary has-text-centered App-body">Number. {(i+1)}</div>);
         }
         return (
             <div className="column bg-bg">
