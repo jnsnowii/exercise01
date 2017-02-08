@@ -7,7 +7,7 @@ import {InSide} from './InSide.js';
 class App extends Component
 {
   state = {
-    count: ''
+    count: 1
   }
 
   update = (event) =>
